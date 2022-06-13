@@ -4,8 +4,8 @@ const emoji=[]
 for(let i=129410; i<=129509; i++){
     emoji.push(`
     <div class="emoji">
-    <div>&#${i};</div>
-    <div>${i}</div>
+    <div class="graphic">&#${i};</div>
+    <div class="hex">${i}</div>
     </div>
     `)
 }
