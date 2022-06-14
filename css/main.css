@@ -48,10 +48,11 @@ table {
 }
 /* ENDS CSS RESET  */
 
+/* Mobile Styles */
 main {
     min-height: 100vh;
     background: rgb(131,58,180);
-    background: linear-gradient(10deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,18 +119,23 @@ main {
     font-family: azo-sans-web, sans-serif;
 }
 
-/* ============= Circle section ===========*/
+/* ==============================================
+000000000000000  Circle section   000000000000000 
+=================================================*/
 
+
+/* ====== MEDIUM CIRCLES ====== */
 .circle1,
-.circle2 {
+.circle2,
+.circle13 {
     background: white;
     border-radius: 50%;
     background: linear-gradient(to right bottom,
     rgba(255, 255, 255, 1), 
     rgba(255, 255, 255,0.5)
     );
-    height: 20rem;
-    width: 20rem;
+    height: 5rem;
+    width: 5rem;
     position: absolute;
 
 }
@@ -141,7 +147,36 @@ main {
 
 .circle2{
     bottom: -125%;
-    right: 13%;
+    right: 10%;
+}
+
+.circle13{
+    bottom: -160%;
+    left: 15%;
+}
+
+.circle7,
+.circle8 {
+    background: white;
+    border-radius: 50%;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 1), 
+    rgba(255, 255, 255,0.5)
+    );
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+
+}
+
+.circle7{
+    top: 35%;
+    right: 7.5%;
+}
+
+.circle4{
+    bottom: -60%;
+    right: 8%;
 }
 
 /* ===== BIG CIRCLES ===== */
@@ -153,8 +188,8 @@ main {
     rgba(255, 255, 255, 1), 
     rgba(255, 255, 255,0.5)
     );
-    height: 30rem;
-    width: 30rem;
+    height: 15rem;
+    width: 15rem;
     position: absolute;
 
 }
@@ -164,7 +199,7 @@ main {
     left: 7.5%;
 }
 
-.circle4{
+.circle8{
     bottom: -105%;
     left: 10%;
 }
@@ -178,22 +213,69 @@ main {
     rgba(255, 255, 255, 1), 
     rgba(255, 255, 255,0.5)
     );
-    height: 5rem;
-    width: 5rem;
+    height: 2.5rem;
+    width: 2.5rem;
     position: absolute;
 
 }
 
 .circle5{
-    top: 45%;
-    left: 7.5%;
+    top: 50%;
+    left: 3%;
 }
 
 .circle6{
-    bottom: -110%;
-    left: 5%;
+    bottom: -70%;
+    right: 5%;
 }
 
+.circle9,
+.circle10 {
+    background: white;
+    border-radius: 50%;
+    background: linear-gradient(to left bottom,
+    rgba(255, 255, 255, 1), 
+    rgba(255, 255, 255,0.5)
+    );
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+
+}
+
+.circle9{
+    top: 2%;
+    left: 2.5%;
+}
+
+.circle10{
+    top: 10%;
+    right: 5%;
+}
+
+.circle11,
+.circle12 {
+    background: white;
+    border-radius: 50%;
+    background: linear-gradient(to left bottom,
+    rgba(255, 255, 255, 1), 
+    rgba(255, 255, 255,0.5)
+    );
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+
+}
+
+.circle11{
+    bottom: -70%;
+    left: 3%;
+}
+
+.circle12{
+    bottom: -135%;
+    right: 10%;
+}
 /* Tablet break point */
 @media screen and (min-width: 760px){
     .container {
@@ -203,6 +285,47 @@ main {
     .header {
         font-size: 4rem;
     }
+    .circle1,
+    .circle2,
+    .circle13 {
+        height: 7.5rem;
+        width: 7.5rem;
+    }
+    .circle3,
+    .circle4 {
+        height: 22.5rem;
+        width: 22.5rem;
+    }
+    .circle5,
+    .circle6 {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .circle7,
+    .circle8 {
+        height: 15rem;
+        width: 15rem;
+    }
+    .circle9,
+    .circle10 {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .circle11,
+    .circle12 {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .circle8{
+        bottom: -105%;
+        left: 10%;
+    }
+    .circle4{
+        bottom: -60%;
+        right: 8%;
+    }
+
 }
 
 /* Desktop break point */
@@ -216,5 +339,45 @@ main {
 	}
     .header {
         font-size: 5rem;
+    }
+    .circle1,
+    .circle2,
+    .circle13 {
+        height: 12rem;
+        width: 12rem;
+    }
+    .circle3,
+    .circle4 {
+        height: 40rem;
+        width: 40rem;
+    }
+    .circle5,
+    .circle6 {
+        height: 5rem;
+        width: 5rem;
+    }
+    .circle7,
+    .circle8 {
+        height: 25rem;
+        width: 25rem;
+    }
+    .circle9,
+    .circle10 {
+        height: 5rem;
+        width: 5rem;
+    }
+    .circle11,
+    .circle12 {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .circle8{
+        bottom: -105%;
+        left: 10%;
+    }
+    .circle4{
+        bottom: -60%;
+        right: 8%;
     }
 }
