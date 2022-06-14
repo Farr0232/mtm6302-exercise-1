@@ -1,7 +1,7 @@
 const $emoji = document.getElementById('emoji')
 const emoji=[]
 
-for(let i=129410; i<=129509; i++){
+for(let i=128513; i<=128612; i++){
     emoji.push(`
     <div class="emoji">
     <div class="graphic">&#${i};</div>
